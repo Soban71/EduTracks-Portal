@@ -62,13 +62,13 @@ EduTrack is a full-featured education management system designed to help adminis
 
 ### 🖥 Backend (Express + MongoDB)
 
-cd server
-npm install
-npm run dev
+- cd server
+- npm install
+- npm run dev
 
 ### Frontend (Next.js)
 
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 
