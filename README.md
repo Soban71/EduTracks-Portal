@@ -43,7 +43,7 @@ EduTrack is a full-featured education management system designed to help adminis
 
 | Layer         | Tech Stack                          |
 |---------------|-------------------------------------|
-| Frontend      | React (Next.js), TailwindCSS        |
+| Frontend      | Next.js, TailwindCSS        |
 | Backend       | Node.js, Express.js                 |
 | Database      | MongoDB + Mongoose ORM              |
 | File Uploads  | Multer for handling uploads         |
