@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: linear-gradient(to right, #1e272e, #000000);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: #00ff9d;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-decoration: none;
+  }
+  
+  .link {
+    color: #dfe6e9;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .link::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #00ff9d;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #00ff9d;
+  }
+  
+  .link:hover::after {
+    width: 100%;
+  }
+  
+  .loginBtn {
+    background-color: #00ff9d;
+    color: #111;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 255, 157, 0.3);
+  }
+  
+  .loginBtn:hover {
+    background-color: #00e39f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 255, 157, 0.4);
+  }
+  

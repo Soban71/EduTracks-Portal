@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.footer {
+  background: linear-gradient(135deg, #2d3436, #000000);
+  color: #dfe6e9;
+  padding: 40px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  overflow-x: hidden; /* prevent accidental scroll */
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem; /* Optional: some horizontal padding */
+}
+
+  .text {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+    color: #b2bec3;
+  }
+  
+  .text strong {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 12px;
+  }
+  
+  .socialIcons a {
+    color: #b2bec3;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    color: #00cec9;
+  }
+  
